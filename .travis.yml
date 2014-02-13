@@ -7,10 +7,10 @@ go:
 
 install:
  - export PATH=$HOME/gopath/bin:$PATH
- - go get -v github.com/axw/gocov
- - go install github.com/axw/gocov/gocov
+   #- go get -v github.com/axw/gocov
+   #- go install github.com/axw/gocov/gocov
  - go get -v -d ./...
 
 script:
  - go test -v ./...
- - gocov test -deps -exclude-goroot | gocov report
+   #- gocov test -deps -exclude-goroot | gocov report

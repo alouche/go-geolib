@@ -5,13 +5,13 @@ import (
 	"testing"
 )
 
-func midpoint(t *testing.T, lat_e string, lon_e string, φ1, λ1, φ2, λ2 float64) {
+func midpoint(t *testing.T, latE string, lonE string, φ1, λ1, φ2, λ2 float64) {
 	point := Midpoint(φ1, λ1, φ2, λ2)
-	lat_r := fmt.Sprintf("%.2f", point.lat)
-	lon_r := fmt.Sprintf("%.2f", point.lon)
+	latR := fmt.Sprintf("%.2f", point.lat)
+	lonR := fmt.Sprintf("%.2f", point.lon)
 
-	if lat_r != lat_e || lon_r != lon_e {
-		t.Errorf("Midpoint = expect %f %f; result %f %f", lat_e, lon_e, lat_r, lon_e)
+	if latR != latE || lonR != lonE {
+		t.Errorf("Midpoint = expect %f %f; result %f %f", latE, lonE, latR, lonR)
 	}
 }
 

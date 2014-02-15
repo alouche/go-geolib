@@ -7,3 +7,8 @@ Geo functions for Golang apps!
 
 ## Scope
 Libraries/Functions/Utilities I often require in other projects!
+
+## Documentation
+
+[API](http://gowalker.go/github.com/alouche/go-geolib)
+

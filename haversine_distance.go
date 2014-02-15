@@ -6,6 +6,9 @@ func haversin(θ float64) float64 {
 	return (1 - math.Cos(θ)) / 2
 }
 
+// Haversine_Distance calculates the great-circle distance between 2 points.
+// The function uses a spherical model, since the earth is more is oblate spheroidal, there will be an accuracy error margin.
+// Scope: Distance computation below 0.3% accuracy error margin
 func Haversine_Distance(φ1, λ1, φ2, λ2 float64) float64 {
 	φ1 = Deg2Rad(φ1)
 	φ2 = Deg2Rad(φ2)

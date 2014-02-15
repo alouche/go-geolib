@@ -10,5 +10,5 @@ Libraries/Functions/Utilities I often require in other projects!
 
 ## Documentation
 
-[API](http://gowalker.go/github.com/alouche/go-geolib)
+[API](https://gowalker.org/github.com/alouche/go-geolib)
 

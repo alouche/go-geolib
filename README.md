@@ -2,7 +2,7 @@ go-geolib
 =========
 
 [![Build Status](https://travis-ci.org/alouche/go-geolib.png?branch=master)](https://travis-ci.org/alouche/go-geolib)
-[![Go Walker](http://gowalker.org/api/v1/badge)](https://gowalker.org/github.com/alouche/go-geolib)
+[![GoDoc](https://godoc.org/github.com/alouche/go-geolib?status.png)](https://godoc.org/github.com/alouche/go-geolib)
 
 ## About
 
@@ -17,7 +17,7 @@ Libraries/Functions/Utilities I often require in other projects!
 
 ## API Documentation
 
-[API](https://gowalker.org/github.com/alouche/go-geolib)
+[API](https://godoc.org/github.com/alouche/go-geolib)
 
 ## Example Usage
 

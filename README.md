@@ -2,6 +2,7 @@ go-geolib
 =========
 
 [![Build Status](https://travis-ci.org/alouche/go-geolib.png?branch=master)](https://travis-ci.org/alouche/go-geolib)
+[![Go Walker](http://gowalker.org/api/v1/badge)](https://gowalker.org/github.com/alouche/go-geolib)
 
 ## About
 

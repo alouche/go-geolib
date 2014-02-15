@@ -2,7 +2,9 @@ package geolib
 
 import "math"
 
-const GREAT_CIRCLE_RADIUS_KM = 6372.8
+// GREAT_CIRCLE_RADIUS_KM varies between 6,378km and 6,357km (equatorial and polar).
+// The local radius of curvature varies between 6,336km and 6,399km (equatorial meridian and polar)
+var GREAT_CIRCLE_RADIUS_KM float64 = 6372.8
 
 // Deg2Rad converts a degree to randian
 func Deg2Rad(degree float64) float64 {

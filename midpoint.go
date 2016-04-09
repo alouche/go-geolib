@@ -2,7 +2,7 @@ package geolib
 
 import "math"
 
-type point struct {
+type Point struct {
 	lat, lon float64
 }
 
@@ -10,8 +10,8 @@ type point struct {
 // Result:
 //  - Type: struct{float64, float64}
 //  - Metric: Radian
-func Midpoint(φ1, λ1, φ2, λ2 float64) point {
-	var point = point{}
+func Midpoint(φ1, λ1, φ2, λ2 float64) Point {
+	var point = Point{}
 
 	φ1 = Deg2Rad(φ1)
 	λ1 = Deg2Rad(λ1)

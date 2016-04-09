@@ -7,7 +7,7 @@ import (
 
 func equirectangularDistance(t *testing.T, expect string, φ1, λ1, φ2, λ2 float64) {
 	if result := fmt.Sprintf("%.2f", EquirectangularDistance(φ1, λ1, φ2, λ2)); expect != result {
-		t.Errorf("Equirectangular Distance = expect %f; result %f", expect, result)
+		t.Errorf("Equirectangular Distance = expect %s; result %s", expect, result)
 	}
 }
 

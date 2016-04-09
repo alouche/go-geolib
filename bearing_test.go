@@ -8,7 +8,7 @@ import (
 func bearing(t *testing.T, flag int, expect string, φ1, λ1, φ2, λ2 float64) {
 	bearing, _ := Bearing(flag, φ1, λ1, φ2, λ2)
 	if result := fmt.Sprintf("%.2f", bearing); expect != result {
-		t.Errorf("Bearing(%d) = expect %f; result %f", flag, expect, result)
+		t.Errorf("Bearing(%d) = expect %s; result %s", flag, expect, result)
 	}
 }
 

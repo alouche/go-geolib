@@ -7,7 +7,7 @@ import (
 
 func deg2rad(t *testing.T, expect string, num float64) {
 	if result := fmt.Sprintf("%.2f", Deg2Rad(num)); result != expect {
-		t.Errorf("Deg2Rad = expect %f; result %f", expect, result)
+		t.Errorf("Deg2Rad = expect %s; result %s", expect, result)
 	}
 }
 

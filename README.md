@@ -2,7 +2,6 @@ go-geolib
 =========
 
 [![CircleCI status](https://circleci.com/gh/alouche/go-geolib.png?circle-token=:circle-token "CircleCI status")](https://circleci.com/gh/alouche/go-geolib)
-[![Build Status](https://travis-ci.org/alouche/go-geolib.png?branch=master)](https://travis-ci.org/alouche/go-geolib)
 [![Coverage Status](https://coveralls.io/repos/github/alouche/go-geolib/badge.svg?branch=master)](https://coveralls.io/github/alouche/go-geolib?branch=master)
 [![GoDoc](https://godoc.org/github.com/alouche/go-geolib?status.png)](https://godoc.org/github.com/alouche/go-geolib)
 

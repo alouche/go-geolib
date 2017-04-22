@@ -1,0 +1,16 @@
+language: go
+services:
+    - docker
+go:
+    - 1.8.1
+
+matrix:
+    allow_failures:
+        - go:tip
+
+branches:
+    only:
+        - master
+
+script:
+    - make test

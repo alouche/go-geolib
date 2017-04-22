@@ -1,10 +1,7 @@
-bootstrap:
-	@bash --norc -i ./scripts/bootstrap.sh
-
-cov: bootstrap
+cov:
 	gocov test ./... | gocov report
 
-test: bootstrap
+test:
 	go test -v ./...
 
 annotate:

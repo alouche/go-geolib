@@ -6,7 +6,7 @@ import "math"
 // The local radius of curvature varies between 6,336km and 6,399km (equatorial meridian and polar)
 var GreatEarthCircleRadiusKM = 6372.8
 
-// Deg2Rad converts a degree to randian
+// Deg2Rad converts a degree to radian
 // Result:
 //  - Type: float64
 //  - Metric: Radian
@@ -14,7 +14,7 @@ func Deg2Rad(degree float64) float64 {
 	return degree * math.Pi / 180
 }
 
-// Rad2Deg converts a randian to degree
+// Rad2Deg converts a radian to degree
 // Result:
 //  - Type: float64
 //  - Metric: Degree
